@@ -1,4 +1,4 @@
-import json, requests, datetime, csv
+import json, imghdr, requests, datetime, csv
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Updater, CommandHandler, CallbackContext
 import re
